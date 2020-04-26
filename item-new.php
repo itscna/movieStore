@@ -1,4 +1,6 @@
-<?php include "config/config.php"; ?>
+<?php include "config/config.php";
+      include "auth.php";
+  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -10,6 +12,29 @@
   </head>
   <body>
     <div class="container-fluid">
+      <!--Navigation Menu Starts Here -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<a class="navbar-brand" href="#">Movie Store</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+  <li class="nav-item active">
+    <a class="nav-link" href="item-new.php">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="item-list.php">Manages Movies</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="cat-list.php">Manages Category</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="logout.php">Logout</a>
+  </li>
+</div>
+</nav>
+   <!--Navigation Menu Ends Here -->
       <h2>New Item Add</h2>
         <div class="form">
             <form action="item-add.php" method="post" enctype="multipart/form-data">

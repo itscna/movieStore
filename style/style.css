@@ -3,3 +3,16 @@
   margin:30px auto;
   width:300px;
 }
+/*index Page */
+.login{
+  width:800px;
+  margin:30px auto;
+  border:2px solid black;
+}
+.login h2{
+  padding:10px 20px;
+}
+.login-form{
+  width:300px;
+  margin:10px auto;
+}
