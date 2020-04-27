@@ -16,3 +16,46 @@
   width:300px;
   margin:10px auto;
 }
+/*User Side Index Page*/
+.header{
+  width:100%;
+  background-color:#9285f7;
+}
+ul li{
+  list-style:none;
+}
+.items{
+  overflow:hidden;
+  padding:0;
+  margin:15px;
+}
+.items li{
+  float:left;
+  width:160px;
+  text-align:center;
+  margin:10px 15px;
+}
+.main h5{
+  display:block;
+  font-size:18px;
+  margin-top:5px;
+}
+.sidebar{
+  width:250px;
+}
+.sidebar li{
+  margin-top:5px;
+  background:#cbcdf2;
+  padding:0;
+  margin:0;
+}
+.sidebar li a{
+  text-decoration:none;
+  padding:10px 15px;
+  text-align:center;
+  display:block;
+  border-bottom:1px solid black;
+}
+.sidebar li a:hover{
+  background:#aaa9a9;
+}
